@@ -28,6 +28,6 @@ print(myMessage2 + "\n")
 # use double quotes "  " to get around the apostrophe problem, no need for the \
 myMessage3 = "I'm looking for someone who can help move furniture."
 # print myMessage3
-print(myMessage3)
+print(myMessage3) 
 
 
