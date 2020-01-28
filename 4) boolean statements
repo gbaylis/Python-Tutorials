@@ -20,4 +20,6 @@ print(a != b) # would print true
 print(5 + 6 >= 10) # would print true
 
 print('\n') # create a line break between parts of the lesson
-print ("part 2")
+print ("part 2, convert a number into boolean")
+print(bool(1)) # would print true 
+print(bool(0)) # would print false, 0 cannot be boolean
