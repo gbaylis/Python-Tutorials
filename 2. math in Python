@@ -1,11 +1,13 @@
+print("part 1")
 # Python / types of numbers
 # a Long is a large whole number
 # an example of a Long
 Long = 87473067304032
 print(Long)
 
-# part 2
+print('\n') # create a line break between parts of the lesson# part 2
 # a float is a decimal number
+print("part 2")
 float = 25.75
 print(float)
 
@@ -14,7 +16,9 @@ print(float)
 # it has a real number and the imaginary part with is followed by a j
 # an example of a complex number is 3 + 8.13j
 
+print('\n') # create a line break between parts of the lesson
 # part 4 
+print ("part 4")
 a = 2 # an int 
 b = 2554784556784 # a Long
 c = 12.05 # a float
