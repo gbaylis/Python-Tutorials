@@ -1,0 +1,8 @@
+# created by gbaylis
+# created on Jan 28th 2020
+# creating a list
+# part 1, adding or appending numbers to a list
+primes = [2, 3, 5, 7, 11, 13]
+primes.append(17)
+primes.append(19)
+print(primes) # would print [2, 3, 5, 7, 11, 13, 17, 19]
