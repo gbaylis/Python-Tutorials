@@ -40,3 +40,8 @@ print(phrase[0]) # would print D because that is the 0 or first character
 # if you put e it would print 1, because the first e is in the 1 position
 phrase = "letter"
 print(phrase.index("t")) # prints 2, because the first t is character # 2
+
+# 9th example
+# replace the word Bear with Tiger
+phrase = "Bear Claw"
+print(phrase.replace("Bear", "Tiger")) # prints Tiger Claw
