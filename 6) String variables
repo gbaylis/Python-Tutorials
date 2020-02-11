@@ -11,3 +11,9 @@ bar_name = "nite owl"
 print(" There was a man named " + character_name)
 print(" " + character_name + " owned a bar called " + bar_name )
 print(" " + character_name + " was " + character_age + " years old")
+
+# you can change an int or string variable half way through a program
+
+character_name = "George"
+
+print(" The bartender was named Ralph, but then change it to " + character_name)
