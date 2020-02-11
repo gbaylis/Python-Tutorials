@@ -1,5 +1,0 @@
-num1 = input("Enter a number, it can be a decimal: ")
-num2 = input("Enter another number, use a decimal if you like: ")
-result = float(num1) + float(num2)
-
-print(result)
