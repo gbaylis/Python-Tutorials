@@ -1,0 +1,8 @@
+# part 1
+# parentheses , performing math in a particular order
+print(3 * (4 + 5)) # 4 + 5 = 9 * 3 = 27
+
+# part 2
+# absolute value, even if a number is negative, it still has a value
+my_num = -5
+print(abs(my_num)) # prints 5, because -5, still has a value of 5
