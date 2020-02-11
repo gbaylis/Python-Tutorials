@@ -1,0 +1,20 @@
+# examples of how to modify letters in strings, upper and lower case
+# created by gbaylis
+# Feb 10th 2020
+
+# 1st example
+phrase = " Lets Make This Sentence ALL Lower CASE"
+print(phrase.lower()) # the above sentence will print, in only lower case letters
+
+# 2nd example, make all letters in a sentence, upper case
+# print a sentence in all upper case
+phrase = " lets make this sentence all upper case"
+print(phrase.upper())
+
+# 3rd example, testing if all the letters in a sentence are upper case, if any character is not uppercase, the output is false
+phrase = " lets make this sentence all upper case"
+print(phrase.isupper())  
+
+# 4th example, test if all the letters in the same sentence, are lower case, outputting either true or false
+phrase = " lets make this sentence all upper case"
+print(phrase.islower())         # would print true
