@@ -38,3 +38,9 @@ print(floor(3.7))
 # ceil as in ceiling, rounds a decimale to the next higher value whole number
 from math import *
 print(ceil(3.1)) # rounds to 4, since ceil would round this decimal up to 4
+
+# part 10
+#sqrt as in square root
+from math import *
+print(sqrt(36)) # prints 6
+# the square root of 36, is 6
