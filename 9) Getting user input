@@ -1,0 +1,10 @@
+# Getting user input
+# created by gbaylis
+# Feb 10th, 2020
+
+# create a variable and ask for the user name
+name = input("Enter your name: ")
+# create another variable and ask the user for their age
+age = input("Enter your age: ")
+# print a string, and use the information gathered from the first 2 questions
+print("Hello " + name + " who is " + age + " years old " + "!")
