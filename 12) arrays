@@ -1,0 +1,13 @@
+# Created by gbaylis
+# Feb 10th 2020
+# arrays
+# an array is a specific list, usually items that are related
+
+# part 1
+# lists / arrays
+fruit = ["apple", "pear", "orange"] # apple is the 0 element, pear is the 1 element and so on
+print(fruit) # this would print the list
+
+# part 2
+fruit = ["apple", "pear", "orange"]
+print(fruit[0]) # prints apple, it is item # 0 in the array
