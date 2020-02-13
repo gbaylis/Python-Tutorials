@@ -30,3 +30,9 @@ print(friends) # print the list
 lucky_numbers = [15, 6, 1, -7, 89, -100, 45]
 lucky_numbers.sort() 
 print(lucky_numbers) # -100, -7, 1, 6, 15, 45, 89
+
+# part 6
+# arrange and print numbers, in the reverse order then they appear in the list. 
+lucky_numbers = [15, 6, 1, -7, 89, -100, 45]
+lucky_numbers.reverse() # arrange the numbers, starting on the right and moving to the left
+print(lucky_numbers) # print the numbers, in the reverse order then they appear in the list
