@@ -1,0 +1,7 @@
+# created by gbaylis
+# Feb 12th 2020
+
+# 1st example
+# create a list and then print a particular item from the list
+coordinates = (4, 5, 12, 60, 357)
+print(coordinates[3])  # prints 60, since it is item # 3 in the list
