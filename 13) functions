@@ -12,3 +12,8 @@ print(lucky_numbers)
 friends = ["George", "John", "Carl", "Oscar", "Susan", "Creed"]
 friends.remove("Creed") # would remove Creed from the list
 print(friends) # print the list, noticed the name Creed is not on the list
+
+# part 3
+# count the number of times a certain word appears in a list
+friends = ["George", "Larry", "Jim", "Susan", "Jim"]
+print(friends.count("Jim")) # would print 2, since Jim is in the list twice
