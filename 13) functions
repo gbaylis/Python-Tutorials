@@ -24,3 +24,9 @@ print(friends.count("Jim")) # would print 2, since Jim is in the list twice
 friends = ["Kevin", "Alice", "Charles", "Juanita", "Rachel", "Richard"]
 friends.sort() # arrange the names in alphabetical order
 print(friends) # print the list
+
+# part 5
+# put the numbers in order from smallest to largest
+lucky_numbers = [15, 6, 1, -7, 89, -100, 45]
+lucky_numbers.sort() 
+print(lucky_numbers) # -100, -7, 1, 6, 15, 45, 89
