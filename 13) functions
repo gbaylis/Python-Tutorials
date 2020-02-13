@@ -1,0 +1,8 @@
+# Created by gbaylis
+# Feb 12th 2020
+
+# part 1
+# create a list, then add a single digit number to the list
+lucky_numbers = ["4", "22", "-5", "80", "-100"]
+lucky_numbers.extend("2") 
+print(lucky_numbers)
