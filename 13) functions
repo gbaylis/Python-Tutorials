@@ -17,3 +17,10 @@ print(friends) # print the list, noticed the name Creed is not on the list
 # count the number of times a certain word appears in a list
 friends = ["George", "Larry", "Jim", "Susan", "Jim"]
 print(friends.count("Jim")) # would print 2, since Jim is in the list twice
+
+# part 4
+# print the items in a list, in alphabetical order
+# print the list of friends in alphabetical order
+friends = ["Kevin", "Alice", "Charles", "Juanita", "Rachel", "Richard"]
+friends.sort() # arrange the names in alphabetical order
+print(friends) # print the list
