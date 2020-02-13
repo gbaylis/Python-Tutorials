@@ -6,3 +6,9 @@
 lucky_numbers = ["4", "22", "-5", "80", "-100"]
 lucky_numbers.extend("2") 
 print(lucky_numbers)
+
+# part 2
+# remove an item from a list
+friends = ["George", "John", "Carl", "Oscar", "Susan", "Creed"]
+friends.remove("Creed") # would remove Creed from the list
+print(friends) # print the list, noticed the name Creed is not on the list
