@@ -12,3 +12,4 @@ coordinates = (4, 5)
 coordinates[1] = 10 # try to change the 5, into a 10
 print(coordinates[1]) # then print item # 1 from the list, which hopefully has been changed to a 10
 # Python would throw and error message, because once a tuple is set, it cannot be changed later
+  
