@@ -1,0 +1,12 @@
+# Created by gbaylis
+# Feb 23rd 2020
+# printing a list of numbers, in increments of 3
+
+# create a list of numbers
+numbers = [0,1,2,3,4,5,6,7,8,9,10]
+
+# create a for loop
+for i in range(len(numbers)):
+    # print the numbers, starting with 0
+    # in this example, there will be 3 numbers in a row
+    print(numbers[i:i+3])
