@@ -1,0 +1,38 @@
+# original source code
+digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# start at 0, to 14, in increments of 2
+print(digits[0:14:2]) # would print: 0, 2, 4, 6, 8, 10, 12
+
+# create a for loop
+# start at 0 and count in increments of 3 
+# 0,1,2 
+# 1, 2, 3 
+# etc
+for i in range(len(digits)):
+    print(digits[i:i+3])
+    
+    
+    
+# example
+This program will create a list of numbers, in groups no larger then 3
+when practicing this, try making lists in groups of 4, or 5
+
+
+# output
+[0, 2, 4, 6, 8, 10, 12]                                                                                                                                    
+[0, 1, 2]                                                                                                                                                  
+[1, 2, 3]                                                                                                                                                  
+[2, 3, 4]                                                                                                                                                  
+[3, 4, 5]                                                                                                                                                  
+[4, 5, 6]                                                                                                                                                  
+[5, 6, 7]                                                                                                                                                  
+[6, 7, 8] 
+[7, 8, 9]                                                                                                                                                  
+[8, 9, 10]                                                                                                                                                 
+[9, 10, 11]                                                                                                                                                
+[10, 11, 12]  
+11, 12, 13]                                                                                                                                               
+[12, 13, 14]                                                                                                                                               
+[13, 14]                                                                                                                                                   
+[14]  
