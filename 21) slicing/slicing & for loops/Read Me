@@ -1,0 +1,33 @@
+# source code
+digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]
+
+# start at 0, to 14, in increments of 2
+print(digits[0:14:2]) # would print: 0, 2, 4, 6, 8, 10, 12
+
+for i in range(len(digits)):
+    print(digits[0:i])
+
+
+
+# first, the program would start at 0, count to 14 and select every other number
+# then the program would make lists
+# the 1st line would count 0
+# the 2nd line count 0 and 1 , etc
+
+# the output of this program
+[0, 2, 4, 6, 8, 10, 12]                                                                                                                                    
+[]                                                                                                                                                         
+[0]                                                                                                                                                        
+[0, 1]                                                                                                                                                     
+[0, 1, 2]                                                                                                                                                  
+[0, 1, 2, 3]                                                                                                                                               
+[0, 1, 2, 3, 4]                                                                                                                                            
+[0, 1, 2, 3, 4, 5]                                                                                                                                         
+[0, 1, 2, 3, 4, 5, 6]   
+[0, 1, 2, 3, 4, 5, 6, 7]                                                                                                                                   
+[0, 1, 2, 3, 4, 5, 6, 7, 8]
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]                                                                                                                             
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]                                                                                                                         
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]                                                                                                                     
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]                                                                                                                 
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
