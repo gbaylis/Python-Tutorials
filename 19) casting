@@ -1,0 +1,6 @@
+x = str("xyz 5")
+y = float(2)
+z = int(3.0)
+print(x) # is now a string
+print(y) # 2.0
+print(z) # 3
