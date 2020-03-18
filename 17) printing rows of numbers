@@ -10,3 +10,5 @@ for i in range(len(numbers)):
     # print the numbers, starting with 0
     # in this example, there will be 3 numbers in a row
     print(numbers[i:i+3])
+    
+    
