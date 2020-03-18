@@ -23,3 +23,5 @@ print('\n') # create a line break between parts of the lesson
 print ("part 2, convert a number into boolean")
 print(bool(1)) # would print true 
 print(bool(0)) # would print false, 0 cannot be boolean
+
+
