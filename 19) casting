@@ -1,3 +1,10 @@
+'''
+Casting is when you change something from one data type (string, int, boolean, etc), 
+into another type of data (string, int, boolean, etc),
+x is a string, even if it has a number in it
+y is now a float, that is why it is displayed as a decimal
+z is casted into an int, that is why it is displayed as a whole number
+'''
 x = str("xyz 5")
 y = float(2)
 z = int(3.0)
