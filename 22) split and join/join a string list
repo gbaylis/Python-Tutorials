@@ -1,1 +1,13 @@
+# created by gbaylis on March 21st, 2020
+# how to join a word, into a list
 
+trees = 'pine, oak, redwood, cypress' # create a list
+print(trees) # print the list, to show the list before the changes
+
+l = trees.split(',') # leave the split blank
+
+# print(l), this is being replaced with the joined, to show the word and 
+
+joined = ' and '.join(l) # this inserts the word and, between the items in the list
+
+print(joined) # print the list, the change is adding the word and
