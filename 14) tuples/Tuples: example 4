@@ -11,8 +11,6 @@ person2 = ("Joe ", 27, 'motorcycle')
 
 people = [person1, person2] # place person1 and person2, into a variable named people 
 
-
-
 for name, age, vehicle in people: # will pring the name, age and vehicle, of person1 and person2
     print(name) # would print Mark and Joe
     print (age) # would print 32 and 27
