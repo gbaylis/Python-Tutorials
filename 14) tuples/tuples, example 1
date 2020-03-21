@@ -1,0 +1,16 @@
+'''
+created by gbaylis
+ March 21 2020
+ Tuples are immutable, you cannot add nor remove elements from it
+ 
+ In this example, I will make a list of items
+ then, I will make a 2nd list of items, with the same variable name
+ notice that the 2nd list, over writes the first list
+ You can over write with tuples, but can never add, or remove items
+'''
+
+# create 2 lists, but use the variable name "a"
+a = (5, 6, 7) # create a list, '5' is item # 0 on the list
+a = (9, 10, 11) # create a list, '9' is item # 0 on the list
+
+print(a[0]) # print 9, because the 2nd list, over writes the 1st list
