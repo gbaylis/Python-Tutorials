@@ -1,0 +1,9 @@
+# created by gbaylis on March 21, 2020
+# an example of how to print a list, and leave out an item from that list
+
+trees = 'pine, oak, redwood, cypress'
+print(trees)
+
+l = trees.split('oak') # this will exclude oak from the list
+
+print(l) # print the list of trees, minus the work oak
