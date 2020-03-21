@@ -1,0 +1,29 @@
+'''
+created by gbaylis
+ March 21 2020
+ Tuples are immutable, you cannot add nor remove elements from it
+ 
+Creating a tuple list and giving each item in the list, its own variable name
+and then over writing that item
+'''
+
+person = (" Mark ", 32, 'pick up truck') # create a list, with details describing a person
+
+(name, age, vehicle) = person # give each item in the list, its own variable name
+
+print(name) # would print Mark
+print (age) # would print 32
+print(vehicle) # would print pick up truck
+
+print("...............Mark has updated his information")
+
+# Mark is now age 40 and drives a car, over write the old information
+
+age = 40
+vehicle = 'car'
+print(name) # would print Mark
+print (age) # would print 40
+print(vehicle) # would print car
+
+
+
