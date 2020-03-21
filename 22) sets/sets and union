@@ -1,0 +1,15 @@
+'''
+There are times, you will have different lists of items
+and in those lists are duplicates
+using union allows you to combine sets and will eliminate any duplicates when the information is printed
+'''
+
+bookCase_1 = {'Dune', 'A Scanner Darkly', 'iRobot'}
+
+# a 2nd set, with its own variable name, but a duplicate Dune item
+bookCase_2 = {'The Watchmen', 'Harry Potter', 'Hunger Games', 'Dune'} 
+# union means to combine things, in this case, combine the 2 libraries
+
+# union will combine the 2 sets and eliminate any duplicates
+all_books = bookCase_1.union(bookCase_2)
+print(all_books)
