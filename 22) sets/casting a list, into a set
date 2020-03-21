@@ -1,0 +1,11 @@
+# created by gbaylis on Mar 21, 2020
+# a set, there can be no duplicates in a set
+
+# this list has duplicates, cast it into a set, to get rid of the duplicates
+l = [1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
+
+no_duplicate_set = set(l) # cast or change this list, into a set 
+# which should eliminate all of the duplicates
+
+
+print(no_duplicate_set) # print 1, 2, 3, 4, notice no duplicates
