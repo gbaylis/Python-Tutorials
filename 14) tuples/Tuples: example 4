@@ -16,3 +16,4 @@ for name, age, vehicle in people: # will pring the name, age and vehicle, of per
     print (age) # would print 32 and 27
     print(vehicle) # would print pick up truck and motorcycle
     print() # print a space, between   
+   
