@@ -7,18 +7,18 @@ How to print a string and int/float on the same line of code
 
 # example 1
 a = 1
-b = "ball"
+b = " ball"
 print(" I have %d %s" %(a,b))
 
 # example 2
 a = 2
-b = "car"
+b = " socks"
 print('I have',a,b)
 
 
 # example 3
 a = 3
-b = "shirts"
+b = " shirts"
 print('I have {} {}'.format(a,b))
 
 # example 4
