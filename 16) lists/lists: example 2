@@ -3,7 +3,7 @@ Created by gbaylis on March 26, 2020
 
 I created some lists
 the lists are parts of a question or statement
-some examples of selecting wor
+some examples of selecting items from different lists, to form sentences
 '''
 
 # make a list, words used in an introduction
@@ -28,6 +28,7 @@ list_8 = [ '.', '?', '!', '&']
 # if you want to print hello, take from 1_list
 zero = list_1[0]
 print(zero)
+# output: hello
 print("===== 2nd example \n")
 
 # ask a woman you do not know, where do you find the airport
@@ -40,6 +41,7 @@ three = list_7[0]
 # list 8, item # 1, for the ? 
 four = list_8[1]
 print(one, two, three, four)
+#output ma'am where do I find the airport ?
 
 
 print("===== 3rd example \n")
@@ -52,5 +54,6 @@ six = list_5[0]
 seven = list_6[2]
 # print, using the variables created 
 print(five, six, seven)
+# output *call them by name I need help with a technical issue
 
 
