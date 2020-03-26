@@ -1,0 +1,36 @@
+'''
+Created by gbaylis on March 26, 2020
+'''
+
+# make a list, words used in an introduction
+# hello is string # 0, programming starts counting at 0
+list_1 = [" hello ", ' bye ', ' welcome ', " "]
+
+list_2 = [' my ', ' your ', ' their ', " they're ", ' to ']
+
+# ways to address a person
+list_3 = [ ' sir ', " ma'am", ' *call them by name ']
+
+list_4 = [' nice to meet you ' , ' thank you for coming ', ' how can I help you? ']
+
+list_5 = [' I need help with ', ' where do I find']
+
+list_6 = [ ' locating a place ', ' planning a trip ', ' a technical issue ']
+
+list_7 = [ ' the airport ', ' the hospital ', ' the courthouse ', ' the mall ']
+
+# if you want to print hello, take from 1_list
+zero = list_1[0]
+print(zero)
+print("===== 2nd example \n")
+
+# ask a woman you do not know, where do you find the airport
+# ma'am is on list 3, it is item # 1
+one = list_3[1]
+# where to find is on list_5, item # 1 
+two = list_5[1]
+# the airport is on list_7
+three = list_7[0]
+print(one, two, three)
+
+print("===== 2nd example \n")
