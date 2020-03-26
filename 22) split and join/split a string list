@@ -1,6 +1,0 @@
-trees = 'pine, oak, redwood, cypress'
-print(trees)
-
-l = trees.split('oak') # this will exclude oak from the list
-
-print(l) # print the list of trees, minus the work oak
