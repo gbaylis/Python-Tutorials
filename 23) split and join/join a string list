@@ -10,4 +10,4 @@ l = trees.split(',') # leave the split blank
 
 joined = ' and '.join(l) # this inserts the word and, between the items in the list
 
-print(joined) # print the list, the change is adding the word and
+print(joined) # print the list, the change is adding the word "and"
