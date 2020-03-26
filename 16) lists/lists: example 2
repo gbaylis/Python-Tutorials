@@ -1,5 +1,9 @@
 '''
 Created by gbaylis on March 26, 2020
+
+I created some lists
+the lists are parts of a question or statement
+some examples of selecting wor
 '''
 
 # make a list, words used in an introduction
@@ -19,6 +23,8 @@ list_6 = [ ' locating a place ', ' planning a trip ', ' a technical issue ']
 
 list_7 = [ ' the airport ', ' the hospital ', ' the courthouse ', ' the mall ']
 
+list_8 = [ '.', '?', '!', '&']
+
 # if you want to print hello, take from 1_list
 zero = list_1[0]
 print(zero)
@@ -31,6 +37,20 @@ one = list_3[1]
 two = list_5[1]
 # the airport is on list_7
 three = list_7[0]
-print(one, two, three)
+# list 8, item # 1, for the ? 
+four = list_8[1]
+print(one, two, three, four)
 
-print("===== 2nd example \n")
+
+print("===== 3rd example \n")
+# ask someone you know to help you with a technical issue
+# list 3, item # 2 is to call that person by their name
+five = list_3[2]
+# list 5, item # item # 0, to say you need help
+six = list_5[0]
+# list 6, item # 2 
+seven = list_6[2]
+# print, using the variables created 
+print(five, six, seven)
+
+
