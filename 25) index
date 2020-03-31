@@ -1,0 +1,31 @@
+'''
+ gbaylis
+March 31 2020
+'''
+
+# find the index of each number
+# the [] is for counting the index number of the character in the string
+a = "Resident"
+# The R is index # 0
+print(" The " + a[0] + " is index # 0")
+
+# the e is index # 1
+print(" The " + a[1] + " is index # 1")
+
+# the s is index # 2
+print(" The " + a[2] + " is index # 2")
+
+# the i is index # 3
+print(" The " + a[3] + " is index # 3")
+
+# The d is index # 4
+print(" The " + a[4] + " is index # 4")
+
+# the e is index # 5
+print(" The " + a[5] + " is index # 5")
+
+# the n is index # 6
+print(" The " + a[6] + " is index # 6")
+
+# the t is index # 7
+print(" The " + a[7] + " is index # 7")
