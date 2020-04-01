@@ -1,0 +1,27 @@
+'''
+gbaylis
+April 1 2020
+days of the week in Python
+0 = monday
+1 = tuesday
+2 = wednesday
+3 = thursday
+4 = Friday
+5 = Saturday
+6 = Sunday
+'''
+import calendar
+# 1920, June, 28th day of the month
+day_of_the_week1 = calendar.weekday(1920, 6, 28)
+print(str(day_of_the_week1) + "  is a monday")
+print(" June 28th, 1920 lands on a Monday")
+# print a calendar of June 1920 to show that June 28th 1920 is a Monday
+print(calendar.month(1920,6))
+
+print("==============================")
+# 1930, January, 14th day of the month
+day_of_the_week2 = calendar.weekday(1930, 1, 14)
+print(str(day_of_the_week2) + "  is a Tuesday")
+print(" January 14th, 1930 lands on a Tuesday")
+# print a calendar of January 1930, to verify the day of the week
+print(calendar.month(1930,1))
