@@ -1,0 +1,15 @@
+'''
+Created by gbaylis
+Feb 10th 2020
+a basic calculator
+I used floats, so the user can type decimals without the program crashing
+the + can be changed into subtraction - , multiplication * or division / 
+'''
+
+# ask the user for a number
+num1 = input("Enter a number, it can be a decimal: ")
+# ask the user for another number
+num2 = input("Enter another number, use a decimal if you like: ")
+result = float(num1) + float(num2)
+
+print(result) # print the answer to the math problem
