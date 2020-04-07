@@ -1,5 +1,7 @@
-# created by gbaylis on March 21st, 2020
-# how to join a word, into a list
+'''
+gbaylis on March 21st, 2020
+how to join a word, into a list
+'''
 
 trees = 'pine, oak, redwood, cypress' # create a list
 print(trees) # print the list, to show the list before the changes
