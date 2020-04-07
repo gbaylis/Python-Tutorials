@@ -1,7 +1,9 @@
-# Created by gbaylis
-# Feb 10th 2020
-# I used floats, so the user can type decimals without the program crashing
-# the + can be changed into subtraction - , multiplication * or division / 
+'''
+Created by gbaylis
+Feb 10th 2020
+I used floats, so the user can type decimals without the program crashing
+the + can be changed into subtraction - , multiplication * or division / 
+'''
 
 # ask the user for a number
 num1 = input("Enter a number, it can be a decimal: ")
