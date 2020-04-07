@@ -1,0 +1,21 @@
+'''
+String Variables
+Gbaylis
+Feb 10th 2020
+I use a " " before the lines of text, because it creates a indent
+When typing this example, change the variables, to a different name or age. 
+'''
+
+character_name = "John"
+character_age = "35"
+bar_name = "nite owl"
+
+print(" There was a man named " + character_name)
+print(" " + character_name + " owned a bar called " + bar_name )
+print(" " + character_name + " was " + character_age + " years old")
+
+# you can change an int or string variable half way through a program
+
+character_name = "George"
+
+print(" The bartender was named Ralph, but then change it to " + character_name)
