@@ -1,0 +1,18 @@
+'''
+gbaylis
+April 6th, 20202
+select a specific item from a list
+'''
+
+# create a list, all integers
+# I put quote marks around the ints, so they can be printed alongside a string
+l1 = ["1", "2", "3", "4"]
+
+# make a list, all strings
+l2 = ["yellow", "green", "red"]
+
+# print a sentence, use "green" by pointing to l2 and 1 which refers to green
+print(" When the traffic light is " + l2[1] + " then you may drive through the intersection")
+
+# print a sentence, with both a string and use an int
+print (" I drive " + l1[3] + " miles, to get to my local store")
