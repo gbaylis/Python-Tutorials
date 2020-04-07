@@ -1,0 +1,17 @@
+'''
+Created by gbaylis
+Feb 10th 2020
+I created this example, to show how user input can be used in a creative situation
+ask the user for input, then put those words into a story
+'''
+
+animal = input("Enter an animal.. ")
+plant = input(" Enter a plant.. ")
+color = input(" Enter a color.. ")
+name = input(" Enter a name.. ")
+color2 = input(" Enter a 2nd color.. ")
+
+# the story, using the string the user entered
+print( "There was a " + color + " " + animal + " named " + name)
+print(name + " like to eat " + color2 + " " + plant)
+print ("The " + color2 + " " + plant + " grew on the hillside")
