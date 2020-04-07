@@ -1,5 +1,8 @@
-# difference and sets
-# created by gbaylis , Mrch 21, 2020
+'''
+gbaylis
+April 7, 2020
+difference and sets
+'''
 
 bookCase_1 = {'Dune', 'A Scanner Darkly', 'iRobot'}
 
