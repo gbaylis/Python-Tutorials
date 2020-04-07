@@ -1,4 +1,8 @@
-# split a string
+'''
+gbaylis
+April 7th 2020
+split a string
+'''
 trees = 'pine, oak, redwood, cypress'
 print(trees)
 
