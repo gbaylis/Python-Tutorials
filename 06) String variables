@@ -1,8 +1,10 @@
-# String Variables
-# created by Gbaylis
-# Feb 10th 2020
-# I use a " " before the lines of text, because it creates a small indent
-# When typing this example, change the variables, to a different name or age. 
+'''
+String Variables
+Gbaylis
+Feb 10th 2020
+I use a " " before the lines of text, because it creates a indent
+When typing this example, change the variables, to a different name or age. 
+'''
 
 character_name = "John"
 character_age = "35"
