@@ -1,6 +1,8 @@
-# Getting user input
-# created by gbaylis
-# Feb 10th, 2020
+'''
+Getting user input
+created by gbaylis
+Feb 10th, 2020
+'''
 
 # create a variable and ask for the user name
 name = input("Enter your name: ")
