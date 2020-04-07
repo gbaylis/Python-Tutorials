@@ -1,0 +1,16 @@
+'''
+gbaylis
+April 7, 2020
+difference and sets
+'''
+
+bookCase_1 = {'Dune', 'A Scanner Darkly', 'iRobot'}
+
+# a 2nd set, with its own variable name, but a duplicate Dune item
+bookCase_2 = {'The Watchmen', 'Harry Potter', 'Hunger Games', 'Dune'} 
+
+
+# difference is used to find what items appear in one list, but not another
+diff = bookCase_1.difference(bookCase_2)
+print(diff) # prints iRobot and A Scanner Darkly
+# 2 books that appear in bookCase_1, but not bookCase_2
