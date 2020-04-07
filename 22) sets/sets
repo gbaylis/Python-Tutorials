@@ -1,7 +1,12 @@
-# adding to sets
-# created by gbaylis on Mar 21, 2020
-# a set, there can be no duplicates in a set
-# sets use  { } 
+'''
+gbaylis
+April 7th 2020
+adding to sets
+created by gbaylis on Mar 21, 2020
+a set, there can be no duplicates in a set
+sets use  { } 
+'''
+
 s = {'pear', 'blackberry'} # create a set, with 2 items
 
 s.add('bannana') # add a 3rd item to the set
