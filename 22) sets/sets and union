@@ -1,4 +1,6 @@
 '''
+gbaylis
+April 7, 2020
 There are times, you will have different lists of items
 and in those lists are duplicates
 using union allows you to combine sets and will eliminate any duplicates when the information is printed
