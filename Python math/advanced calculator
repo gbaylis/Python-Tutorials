@@ -1,0 +1,43 @@
+'''
+Created by gbaylis
+Feb 10th 2020
+A calculator
+allows the user to choose 2 numbers
+and the type of math being performed
+
+'''
+
+
+
+# ask the user for a number
+num1 = input("Enter a number, it can be a decimal: ")
+# ask the user for another number
+num2 = input("Enter another number, use a decimal if you like: ")
+
+print("What kind of math are you performing?")
+print("Type 1 for multiplication *")
+print("Type 2 for division ")
+print("Type 3 for addition + ")
+print("Type 4 for subtraction - ")
+print("Type any other key if you want to perform division and get the remainder % ")
+
+perform = input(" Type your answer here.. ")
+
+if perform == "1":
+    print(num1 + " multiplied by " + num2 + " is equal to: ")
+    print(float(num1) * float(num2)) # multiplication
+    
+elif perform == "2":
+    print(num1 + " divided by " + num2 + " is equal to: ")
+    print(float(num1) / float(num2)) # division
+    
+elif perform == "3":
+    print(num1 + " added to " + num2 + " is equal to: ")
+    print(float(num1) + float(num2)) # addition    
+    
+elif perform == "4":
+    print(num1 + " subtract " + num2 + " is equal to: ")
+    print(float(num1) - float(num2)) # subtraction   
+    
+else:
+    print(float(num1) % float(num2)) # modulus 
