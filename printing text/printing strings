@@ -1,0 +1,34 @@
+'''
+printing text
+Created by gbaylis
+Created on Jan 21st 2020
+I used a online code compiler, to practice Python, a great tool for learning / practicing. 
+'''
+
+
+# create 2 sentences and give the command to print them
+# use the + "\n" to create a line break between the next 2 strings
+print (' You can use single quotes ' + "\n")
+print (" or use double quotes")
+
+
+# part 2
+# create a string variable and have it be equal to a sentence
+myMessage = ' libraries have comfortable chairs.'
+# now print that sentence, that is stored in that variable
+print(myMessage)
+
+
+# part 3
+# use the \ symbol, when you use a single quote inside a sentence
+myMessage2 = ' I\'m at the store to buy milk, eggs and bread.'
+# now print the sentence stored in myMessage2
+# use + "\n" to create a line break between myMessage2 & myMessage3
+print(myMessage2 + "\n")
+
+
+# part 4
+# use double quotes "  " to get around the apostrophe problem, no need for the \
+myMessage3 = "I'm looking for someone who can help move furniture."
+# print myMessage3
+print(myMessage3) 
