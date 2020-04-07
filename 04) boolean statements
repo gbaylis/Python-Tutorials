@@ -1,8 +1,10 @@
-# created by gbaylis
-# Jan 27th 2020
-# 
-# boolean statements
-# testing if a statement is true or false
+'''
+gbaylis
+Jan 27th 2020
+ 
+boolean statements
+testing if a statement is true or false
+'''
 
 print ("part 1")
 # a boolean test, on two variables that are not equal
