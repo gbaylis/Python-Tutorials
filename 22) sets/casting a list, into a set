@@ -1,5 +1,9 @@
-# created by gbaylis on Mar 21, 2020
-# a set, there can be no duplicates in a set
+'''
+gbaylis
+April 7th, 2020
+created by gbaylis on Mar 21, 2020
+a set, there can be no duplicates in a set
+'''
 
 # this list has duplicates, cast it into a set, to get rid of the duplicates
 l = [1, 1, 2, 2, 3, 3, 3, 4, 4, 4, 4]
