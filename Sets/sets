@@ -1,0 +1,13 @@
+'''
+gbaylis
+April 7th 2020
+adding to sets
+a set, there can be no duplicates in a set
+sets use  { } 
+'''
+
+s = {'pear', 'blackberry'} # create a set, with 2 items
+
+s.add('bannana') # add a 3rd item to the set
+
+print(s) # print the set, with bannana in it
