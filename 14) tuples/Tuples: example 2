@@ -1,5 +1,7 @@
-# created by gbaylis
-# March 1 2020.  
+'''
+created by gbaylis
+March 1 2020
+'''
 
 # 1st example
 # create a list and then print a particular item from the list
