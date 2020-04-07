@@ -1,10 +1,11 @@
+  
 '''
 Created by gbaylis
 Feb 10th 2020
-A calculator
-allows the user to choose 2 numbers
-and the type of math being performed
+calculator, answer shows up to 2 decimal points
 
+choose 2 numbers
+and then choose the type of math to perform
 '''
 
 
@@ -25,19 +26,27 @@ perform = input(" Type your answer here.. ")
 
 if perform == "1":
     print(num1 + " multiplied by " + num2 + " is equal to: ")
-    print(float(num1) * float(num2)) # multiplication
+    # float is a decimal number
+    result = (float(num1) * float(num2)) # multiplication
+    # round is to round the answer to 2 decimal places
+    print (round(result, 2))
     
 elif perform == "2":
     print(num1 + " divided by " + num2 + " is equal to: ")
-    print(float(num1) / float(num2)) # division
+    result = (float(num1) / float(num2)) # division
+    print (round(result, 2))
     
 elif perform == "3":
     print(num1 + " added to " + num2 + " is equal to: ")
-    print(float(num1) + float(num2)) # addition    
+    result = (float(num1) + float(num2)) # addition    
+    print (round(result, 2))
     
 elif perform == "4":
     print(num1 + " subtract " + num2 + " is equal to: ")
-    print(float(num1) - float(num2)) # subtraction   
+    result = (float(num1) - float(num2)) # subtraction  
+    print (round(result, 2))
     
 else:
-    print(float(num1) % float(num2)) # modulus 
+    print(num1 + " divided by " + num2 + " has a remainder of: ")
+    result = (float(num1) % float(num2)) # modulus 
+    print (round(result, 2))
