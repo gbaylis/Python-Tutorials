@@ -1,0 +1,27 @@
+'''
+gbaylis
+Jan 27th 2020
+ 
+boolean statements
+testing if a statement is true or false
+'''
+
+print ("part 1")
+# a boolean test, on two variables that are not equal
+a = 10
+b = 20
+# test if a is equal to b 
+print(a == b) # would print false
+# test if a is greater then b 
+print(a > b) # would print false
+# test if b is greater then a 
+print( b > a)  # would print true
+# test if a is not equal to b 
+print(a != b) # would print true
+# test if 5 + 6 is greater then or equal to 10
+print(5 + 6 >= 10) # would print true
+
+print('\n') # create a line break between parts of the lesson
+print ("part 2, convert a number into boolean")
+print(bool(1)) # would print true 
+print(bool(0)) # would print false, 0 cannot be boolean
