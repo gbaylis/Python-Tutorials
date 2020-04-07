@@ -1,0 +1,26 @@
+'''
+Created by gbaylis
+Feb 10th 2020
+arrays
+an array is a specific list, usually items that are related
+'''
+
+# part 1
+# lists / arrays
+fruit = ["apple", "pear", "orange"] # apple is the 0 element, pear is the 1 element and so on
+print(fruit) # this would print the list
+
+# part 2
+fruit = ["apple", "pear", "orange"]
+print(fruit[0]) # prints apple, it is item # 0 in the array
+
+# part 3
+fruit = ["apple", "pear", "orange"]
+print(fruit[-1]) # prints orange, because -1 causes the program to count backwards
+# if apple is 0, counting to -1 counts in reverse order, which lands on orange
+
+# part 4
+fruit = ["apple", "pear", "orange", "starberry", "blueberry", "melon"]
+print(fruit[1:3])
+# prints pear and orange, starts at position 1 which is pear, and stops at 2 (before 3)
+# therefore, pear and orange are printed
