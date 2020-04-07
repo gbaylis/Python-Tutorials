@@ -1,0 +1,49 @@
+'''
+examples of how to modify letters in strings, upper and lower case
+gbaylis
+Feb 10th 2020
+'''
+
+# 1st example
+phrase = " Lets Make This Sentence ALL Lower CASE"
+print(phrase.lower()) # the above sentence will print, in only lower case letters
+
+# 2nd example, make all letters in a sentence, upper case
+# print a sentence in all upper case
+phrase = " lets make this sentence all upper case"
+print(phrase.upper())
+
+# 3rd example, testing if all the letters in a sentence are upper case, if any character is not uppercase, the output is false
+phrase = " lets make this sentence all upper case"
+print(phrase.isupper())  
+
+# 4th example, test if all the letters in the same sentence, are lower case, outputting either true or false
+phrase = " lets make this sentence all upper case"
+print(phrase.islower())         # would print true
+
+# 5th example, convert a sentence into all upper case letters, then test if the sentence is in all upper case letters
+# try testing this code, by converting the letters into lower case letters
+phrase = " IS this Sentence ALL UPper CAse?"
+print(phrase.upper().isupper())
+
+# 6th example
+# to find the character length of a string
+phrase = " How many characters are in this string? "
+print(len(phrase)) # would print 41 for 41 characters
+
+# 7th example
+# to print a particular character from a string
+# D = 0, i = 1, d = 2, y = 4
+phrase = "Did you know that in programming, counting starts at zero?"
+print(phrase[0]) # would print D because that is the 0 or first character
+
+# 8th example
+# If you wanted to know the spot of a letter in a name, as in, l in letter is 0
+# if you put e it would print 1, because the first e is in the 1 position
+phrase = "letter"
+print(phrase.index("t")) # prints 2, because the first t is character # 2
+
+# 9th example
+# replace the word Bear with Tiger
+phrase = "Bear Claw"
+print(phrase.replace("Bear", "Tiger")) # prints Tiger Claw
