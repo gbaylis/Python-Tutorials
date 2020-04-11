@@ -3,10 +3,14 @@ gbaylis
 April 11, 2020
 using index, to get the first and last initial of a person
 '''
-
+# ask the user for their first name
 fname = input("What is your first name ")
-print(" Your first name is " + fname)
-lname = input("What is your last name ")
-print(" Your last name is " + lname)
 
+# ask the user for their last name
+lname = input("What is your last name ")
+# tell the user what their first and last name is
+print(" Your full name is " + fname + " " + lname)
+
+# get the users initials
+#[0] refers to the first letter in the name, or the 0 index position
 print(" Your initials are " + fname[0] + lname[0])
