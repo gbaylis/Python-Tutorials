@@ -1,12 +1,9 @@
-'''
-gbaylis
-April 12, 2020
-'''
 # take inventory of the food in the kitchen
 # count the # of an items
-food = ["apple", "apple", "bannana", "loaf bread", "pineapple", "box oatmeal",
+from collections import Counter
+food = ["apple", "apple", "banana", "loaf bread", "pineapple", "box oatmeal",
 "cheeder cheese", "crackers", "yogurt", "peanut butter", "gal. milk", "swiss cheese"
-"box oatmeal", "pear", "kiwi", "pepper shaker", "salt shaker", "bannana",
+"box oatmeal", "pear", "kiwi", "pepper shaker", "salt shaker", "banana",
 "left over pizza", "left over curry", "left over pasta", 
 "water", "water", "water", "water", "water", "water"]
 
@@ -17,3 +14,8 @@ print("There are {} apples in the kitchen".format(food.count(a)))
 # count the # of bottle of water in the kitchen
 w = "water"
 print("There are {} bottles of water in the kitchen".format(food.count(w)))
+
+# use the counter method
+b = "banana"
+dic=Counter(food)
+print("There are {} bananas in the kitchen".format(dic[b]))
