@@ -6,10 +6,10 @@ April 12, 2020
 # take inventory of the food in the kitchen
 # count the # of an items
 from collections import Counter
-food = ["apple", "apple", "banana", "loaf bread", "pineapple", "box oatmeal",
-"cheeder cheese", "crackers", "yogurt", "peanut butter", "gal. milk", "swiss cheese"
+food = ["apple", "apple", "banana", "loaf bread", "pineapple", "box of strawberries",
+"cheddar cheese", "crackers", "yogurt", "peanut butter", "gal. milk", "swiss cheese",
 "box oatmeal", "pear", "kiwi", "pepper shaker", "salt shaker", "banana",
-"left over pizza", "left over curry", "left over pasta", 
+"jack cheese", "parmesan cheese", "left over pasta", 
 "water", "water", "water", "water", "water", "water"]
 
 # count the number of apples in the kitchen
@@ -24,3 +24,9 @@ print("There are {} bottles of water in the kitchen".format(food.count(w)))
 b = "banana"
 dic=Counter(food)
 print("There are {} bananas in the kitchen".format(dic[b]))
+
+print(" I have the following cheese in the fridge")
+# search for all items that have the word cheese in it
+for str in food:
+    if 'cheese' in str:
+       print(str)
