@@ -1,3 +1,7 @@
+'''
+gbaylis
+April 12, 2020
+'''
 # take inventory of the food in the kitchen
 # count the # of an items
 food = ["apple", "apple", "bannana", "loaf bread", "pineapple", "box oatmeal",
