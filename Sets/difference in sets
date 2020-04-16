@@ -1,7 +1,7 @@
 '''
 gbaylis
-April 7, 2020
-difference and sets
+
+Python | difference and sets
 '''
 
 bookCase_1 = {'Dune', 'A Scanner Darkly', 'iRobot'}
