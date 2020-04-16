@@ -1,7 +1,7 @@
 '''
-Created by gbaylis
-Feb 10th 2020
-a basic calculator
+gbaylis
+
+Python | basic calculator
 I used floats, so the user can type decimals without the program crashing
 the + can be changed into subtraction - , multiplication * or division / 
 '''
