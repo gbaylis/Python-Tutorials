@@ -1,0 +1,48 @@
+'''
+gbaylis
+While loop | Python | 2 questions quiz
+'''
+answer = "George Washington" # the answer to the question
+guess = "" 
+guess_count = 0 # index 0 represents, the first time the player guesses the answer
+guess_limit = 3 # the player (or user) gets 3 guesses
+out_of_guesses = False # at the start, the player has NOT used all of their guesses
+
+while guess != answer and not(out_of_guesses):
+    if guess_count < guess_limit:
+# this is the question and receives the input from the player         
+        guess = input("Who was the first president of the USA?: ")
+        guess_count += 1 # every guess, adds 1 to the guess count
+    else: # when the player uses all of their guesses, then it becomes true
+        out_of_guesses = True
+
+if out_of_guesses: # if the player is out of guesses print you lose, out of guess is True
+    print("Incorrect, nice try")
+    
+else: # else, if the player guesses the correct answer, print you win
+    print("You got the 1st question right")
+     
+# a 2nd question , a multiple choice quesiton
+number = "1" # the answer is in a number, in a multiple choice question
+think = "" 
+# change the variable names
+guess_c = 0 # index 0 represents, the first time the player guesses the answer
+guess_l = 3 # the player (or user) gets 3 guesses
+three_strikes = False # at the start, the player has NOT used all of their guesses
+
+while think != number and not(three_strikes):
+    if guess_c < guess_l:
+# this is the question and receives the input from the player 
+        print("Type 1 for Ottowa")
+        print("Type 2 for Toronto")
+        print("Type 3 for Montreal")
+        think = input("What is the capital of Canada?: ")
+        guess_c += 1 # every guess, adds 1 to the guess count
+    else: # when the player uses all of their guesses, then it becomes true
+        three_strikes = True
+
+if three_strikes: # if the player is out of guesses print you lose, out of guess is True
+    print("Incorrect, nice try")
+                q2 = 1
+else: # else, if the player guesses the correct answer, print you win
+    print("You got the 2nd question right")
