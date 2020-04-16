@@ -1,3 +1,7 @@
+'''
+gbaylis
+Python | While loop
+'''
 # create a variable , that is = 1
 a = 1  
 while a <= 5: # this loop works when a is less then or = to 5
