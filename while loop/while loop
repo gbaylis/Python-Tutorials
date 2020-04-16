@@ -1,0 +1,12 @@
+# create a variable , that is = 1
+a = 1  
+while a <= 5: # this loop works when a is less then or = to 5
+    print(a) # print a 
+    a += 1 # add 1 to a, each time the while loop runs
+    
+# output
+# 1
+# 2
+# 3
+# 4
+# 5
