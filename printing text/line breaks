@@ -1,0 +1,14 @@
+'''
+gbaylis | Python
+using tripple double quotes, to split a line
+line breaks
+'''
+split = """ this is a line
+this is the 2nd line
+and the 3rd"""
+
+print(split)
+
+# or use the \next
+
+print(" This is hello, how are you \n and this is good bye")
