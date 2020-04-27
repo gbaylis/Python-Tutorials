@@ -1,9 +1,11 @@
 '''
 gbaylis | Python
-use 2 back slashes, when you want one back slash to appear in the string
-if you used one back slash, the code would not run
+using triple double quotes, to split a line
 '''
+
 
 # use of \ back slash in one string  
 # use \\ to make one back slash appear
 print("C:\\Users\\myFolders\\notes.doc")
+# or put an r before the double quote
+print(r"C:\Users\myFolders\notes.doc")
