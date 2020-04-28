@@ -1,0 +1,21 @@
+'''
+gbaylis | Python
+use // in math, when you do not want a decimal
+'''
+
+x = 20
+y = 5
+# answers
+print("x + y = ", str(x + y)) # 25
+print()
+print("x - y = ", str(x - y)) # 15
+print()
+print("x * y = ", str(x * y)) # 100
+print()
+print("x / y = ", str(x / y)) # 4.0
+print()
+print("x // y = ", str(x // y)) # 4, no decimal
+print()
+print(14 / 5) # 2.8
+print()
+print(14 // 5) # 2
