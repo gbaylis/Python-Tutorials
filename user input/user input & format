@@ -1,0 +1,17 @@
+'''
+gbaylis | Python
+user input and .format
+'''
+# ask the user for their name, save it in a variable called name 
+name = input("Please enter your name: ")
+# use brackets and .format, ask the user for their age
+age = int(input(" Hello, How old are you. {0}? ".format(name)))
+print(age)
+
+# if the user is age 18 or older, print this statements
+if age >= 18:
+    print("You are old enough to vote")
+else:
+# use.format and subtraction to figure out how many years need to pass
+# before they can vote, that number goes inside the brackets
+    print(" You will be old enough to vote in {0} years".format(18 - age))
