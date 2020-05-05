@@ -1,0 +1,25 @@
+'''
+gbaylis | Python
+randint | guess the number game
+'''
+# import the random library
+import random
+# the correct number , is a random number between 1 and 100
+number = random.randrange(1,100)
+# ask the user to guess a number between 1 and 100
+guess = int(input("Guess a number between 1 and 100: "))
+
+while guess != number:
+    if guess < number:
+        # if the guess is less than the number
+        print("You need to guess a bigger number. Try again")
+        print("=" * 20) # create a line between guesses
+        guess = int(input("Guess a number between 1 and 100: "))
+    else:
+        #otherwise, the guess is greater than the number
+        print(" The number is lower than that, guess again")
+        print("=" * 20)# create a line between guesses
+        guess = int(input("Guess a number between 1 and 100: "))
+        
+print("You correctly guessed the number, well done")
+
