@@ -1,0 +1,28 @@
+'''
+gbaylis | Python
+while loop, guess the name
+'''
+# create a word or name, to be guessed
+secret_name = "Mike"
+guess = ""
+# first guess, starts at 0
+guess_count = 0
+# user gets, 3 guesses
+guess_limit = 3
+# if the user, uses all of their guesses, the condition of the statement becomes false
+out_of_guesses = False
+
+# create a while loop
+while guess != secret_word and not(out_of_guesses):
+     if guess_count < guess_limit:
+# ask the user to guess, give them a clue         
+          guess = input("Guess my name, rhymes with like: ")
+          guess_count += 1
+     else:
+          out_of_guesses = True
+# if out of guesses is true, print too bad, try again
+if out_of_guesses:
+     print("Too bad, try again!")
+else:
+# if the user typed the correct name, print Good job
+     print("Good job")
