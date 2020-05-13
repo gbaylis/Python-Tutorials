@@ -1,0 +1,9 @@
+'''
+gbaylis | Python
+while loop, counting in decimals
+'''
+i = 0.25
+while i < 5:
+    print(" the number is .. {}".format(i))
+    i += 0.5
+
