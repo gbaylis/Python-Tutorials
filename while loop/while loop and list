@@ -1,0 +1,12 @@
+'''
+Python | gbaylis
+while loop and list
+'''
+prog = ['java', 'python', 'sql', 'C++', 'php', 'javascript']
+chosen_prog = ""
+while chosen_prog not in prog:
+    chosen_prog = input("please choose a programming language: .. ")
+    if chosen_prog.casefold() == "quit":
+        print(" you choose to quit the game")
+        break 
+print(" Your programming language is: " + chosen_prog)  
