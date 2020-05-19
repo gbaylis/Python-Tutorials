@@ -1,0 +1,9 @@
+'''
+gbaylis | Python
+for loop
+'''
+
+for x in range(30):
+  print(x)
+else:
+     print(" The 30 days in a month")
