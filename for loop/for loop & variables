@@ -1,0 +1,9 @@
+'''
+gbaylis | Python
+this for loop will print up to, but not including 100
+'''
+# 100 / 5 = 20
+a = 100
+b = 5
+for i in range(1, a // b):
+    print(i)
