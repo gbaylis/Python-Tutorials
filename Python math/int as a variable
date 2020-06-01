@@ -1,0 +1,24 @@
+'''
+gbaylis | Python
+user is asked to input the cost of 2 different types of bills
+input is a float, to allow for the cents
+the variables are put inside a () when dividing the number
+'''
+rent = 800
+
+water = float(input(" what is the water bill?..  "))
+elec = float(input(" what is the gas & electric bill?..  "))
+
+bill1 = (water) / 4
+bill2 = (elec) / 2
+
+total_rent = rent - bill1 - bill2
+print("*" * 25)
+print(" Your part of the water bill is... ")
+print(bill1)
+print("*" * 25)
+print(" Your part of the gas & electric bill is... ")
+print(bill2)
+print("*" * 25)
+print("Your total rent is: ")
+print (total_rent)
