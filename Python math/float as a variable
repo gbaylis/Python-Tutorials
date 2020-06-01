@@ -4,21 +4,36 @@ user is asked to input the cost of 2 different types of bills
 input is a float, to allow for the cents
 the variables are put inside a () when dividing the number
 '''
-rent = 800
 
+#rent is $800 every month
+rent = 800
+#ask the user for the montly water and gas / electric bill
 water = float(input(" what is the water bill?..  "))
 elec = float(input(" what is the gas & electric bill?..  "))
-
+# the users pays 1/4 of the water bill and 1/2 of the gas/electric bill
 bill1 = (water) / 4
 bill2 = (elec) / 2
+# add the users share of the water, gas & electric bill
+bill3 = bill1 + bill2
+# the users total rent, is the rent, minus their share of the utilities
 
-total_rent = rent - bill1 - bill2
+total_rent = (round(rent - bill3,2))
 print("*" * 25)
+# print the users share of the water bill
 print(" Your part of the water bill is... ")
-print(bill1)
+# round the water bill to the nearest 2 decimal places
+print(round(bill1,2))
 print("*" * 25)
+
+# print the users share of the gas / electric bill
 print(" Your part of the gas & electric bill is... ")
-print(bill2)
+# round the gas & electric bill to the nearest 2 decimal places
+print(round(bill2,2))
+print("*" * 25)
+
+# print what the user owes in both utilities
+print(" Your share total for your share of the utilities is...  ")
+print(round(bill3,2))
 print("*" * 25)
 print("Your total rent is: ")
 print (total_rent)
