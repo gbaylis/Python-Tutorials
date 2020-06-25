@@ -1,8 +1,7 @@
 '''
-created by gbaylis
- March 21 2020
+gbaylis
  Tuples are immutable, you cannot add nor remove elements from it
- 
+ Python
 Creating a tuple list and giving each item in the list, its own variable name
 and then over writing that item
 '''
