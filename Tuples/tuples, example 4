@@ -1,8 +1,7 @@
 '''
-created by gbaylis
- March 21 2020
- Tuples are immutable, you cannot add nor remove elements from it
- 
+gbaylis | Tuples 
+
+Tuples are immutable, you cannot add nor remove elements from it
 unpacking tuples
 '''
 
