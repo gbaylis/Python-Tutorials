@@ -1,6 +1,5 @@
 '''
-created by gbaylis
- March 21 2020
+ gbaylis | Python
  Tuples are immutable, you cannot add nor remove elements from it
  
  In this example, I will make a list of items
