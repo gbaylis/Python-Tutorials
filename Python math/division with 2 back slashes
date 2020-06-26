@@ -1,6 +1,6 @@
 '''
 gbaylis | Python
-use // in math, when you do not want a decimal
+use // in math, when you want the answer as a whole number (no decimals)
 '''
 
 x = 20
