@@ -31,9 +31,13 @@ print(" Your part of the gas & electric bill is... ")
 print(round(bill2,2))
 print("*" * 25)
 
+#convert the float to a string
+# so that it can be concatenated with another string
+total_value = str(total_rent)
+
 # print what the user owes in both utilities
 print(" Your share total for your share of the utilities is...  ")
 print(round(bill3,2))
 print("*" * 25)
-print("Your total rent is: ")
-print (total_rent)
+
+print(" Your total rent is: $" + total_value)
