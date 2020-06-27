@@ -5,7 +5,7 @@ input is a float, to allow for the cents
 the variables are put inside a () when dividing the number
 '''
 
-#rent is $800 every month
+#rent is $800 every month plus your share of the utilities
 rent = 800
 #ask the user for the montly water and gas / electric bill
 water = float(input(" what is the water bill?..  "))
@@ -15,9 +15,9 @@ bill1 = (water) / 4
 bill2 = (elec) / 2
 # add the users share of the water, gas & electric bill
 bill3 = bill1 + bill2
-# the users total rent, is the rent, minus their share of the utilities
+# the users total rent, is the rent, plu their share of the utilities
 
-total_rent = (round(rent - bill3,2))
+total_rent = (round(rent + bill3,2))
 print("*" * 25)
 # print the users share of the water bill
 print(" Your part of the water bill is... ")
