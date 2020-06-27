@@ -15,7 +15,7 @@ bill1 = (water) / 4
 bill2 = (elec) / 2
 # add the users share of the water, gas & electric bill
 bill3 = bill1 + bill2
-# the users total rent, is the rent, plu their share of the utilities
+# the users total costs, is the rent, plus their share of the utilities
 
 total_rent = (round(rent + bill3,2))
 print("*" * 25)
