@@ -1,7 +1,7 @@
 '''
 Python | While Loop | multiple choice
 '''
-choice = "-"
+choice = " "
 while choice != "0":
     if choice in "012345":
         print("You chose {}".format(choice))
