@@ -1,6 +1,6 @@
 '''
 gbaylis
-While loop | Python | 2 questions quiz
+While Loop | Python | 2 questions quiz
 '''
 answer = "George Washington" # the answer to the question
 guess = "" 
