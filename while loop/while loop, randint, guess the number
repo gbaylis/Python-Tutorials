@@ -12,11 +12,11 @@ guess = int(input("Guess a number between 1 and one-hundred.. "))
 while guess != number:
     if guess < number:
         
-        print(" you need to guess a bigger number. Try again")
+        print(" you need to guess a bigger number, try again")
         print("=" * 20) 
         guess = int(input("Guess a number between 1 and one-hundred.. "))
     else:
-        print(" The number is lower than that, guess again")
+        print(" The number is less than that, try again")
         print("="*20) 
         guess = int(input("Guess a number between 1 and one-hundred.. "))
         
