@@ -2,6 +2,7 @@
 gbaylis | Python
 how to print statements with string, ints and variables
 '''
+
 # use commas, when there is an int variable
 x = 10
 print(" I see " , x , " shoes")
@@ -10,10 +11,10 @@ print(" I see " , x , " shoes")
 x = "ten"
 print("There are " + x + " birds")
 
-# use str() so that the 6 can be treated as if it were a string
+# use str() so that the int can be treated as if it were a string
 print("number " + str(6))
 
-# use a plus sign, use commas for the 6
+# use a plus sign, use commas for a string inside " "
 print("6" + "dollars")
 
 # use a comma instead of the + sign
