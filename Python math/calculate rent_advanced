@@ -3,6 +3,7 @@ gbaylis | Python
 user is asked to input the cost of 2 different types of bills
 input is a float, to allow for the cents
 the variables are put inside a () when dividing the number
+rounding the float to 2 decimals, for cents
 '''
 
 #rent is $800 every month plus your share of the utilities
