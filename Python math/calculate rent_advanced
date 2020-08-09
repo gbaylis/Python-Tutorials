@@ -5,7 +5,6 @@ input is a float, to allow for the cents
 the variables are put inside a () when dividing the number
 rounding the float to 2 decimals, for cents
 '''
-
 #rent is $800 every month plus your share of the utilities
 rent = 800
 #ask the user for the montly water and gas / electric bill
@@ -21,15 +20,16 @@ bill3 = bill1 + bill2
 total_rent = (round(rent + bill3,2))
 print("*" * 25)
 # print the users share of the water bill
-print(" Your part of the water bill is... ")
+# used , instead of the + sign, made it easier to put int and string on the same print line
+print(" Your part of the water bill is... $", (round(bill1,2)))
 # round the water bill to the nearest 2 decimal places
-print(round(bill1,2))
+# print(round(bill1,2))
 print("*" * 25)
 
 # print the users share of the gas / electric bill
-print(" Your part of the gas & electric bill is... ")
+print(" Your part of the gas & electric bill is... $", (round(bill2,2)))
 # round the gas & electric bill to the nearest 2 decimal places
-print(round(bill2,2))
+# print(round(bill2,2))
 print("*" * 25)
 
 #convert the float to a string
@@ -37,8 +37,10 @@ print("*" * 25)
 total_value = str(total_rent)
 
 # print what the user owes in both utilities
-print(" Your share total for your share of the utilities is...  ")
-print(round(bill3,2))
+print(" Your share total for your share of the utilities is...  $", (round(bill3,2)))
+# print(round(bill3,2))
 print("*" * 25)
 
 print(" Your total rent is: $" + total_value)
+
+
