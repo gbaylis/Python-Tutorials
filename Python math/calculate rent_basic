@@ -10,5 +10,5 @@ elec_bill = input("What is this month's electricity bill?... ")
 # add rent and the utilities together, into one sum
 total_cost = float(rent) + float(water_bill) + float(elec_bill)
 #print the sum total
-print(" The total cost for rent, and the utility bills in dollars is...")
-print(total_cost) 
+print(" The total cost for rent, and the utility bills in dollars is...$",total_cost)
+#print(total_cost) 
