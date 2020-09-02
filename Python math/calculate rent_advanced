@@ -29,19 +29,20 @@ cable = (cable_bill / room_mates)
 bill = (water + elec + rent + internet + cable)
 
 # print out the users share and total of bills
+# round to the nearest 2 decimal places, to represent cents
 print("*" * 40)
 print(" Your share of the bills.....")
 
-print(" rent:........................... $", rent)
+print(" rent:........................... $", round(rent,2))
 
-print(" internet:....................... $", rent)
+print(" internet:....................... $", round(rent,2))
 
-print(" water bill:......................$", water)
+print(" water bill:......................$", round(water,2))
 
-print(" gas & electric bill:.............$", elec)
+print(" gas & electric bill:.............$", round(elec,2))
 
-print(" cable & streaming services:..... $", rent)
+print(" cable & streaming services:..... $", round(rent,2))
 
 print("*" * 40)
 
-print("Your bill for all services........$",bill)
+print("Your bill for all services........$",round(bill,2))
