@@ -1,46 +1,37 @@
 '''
 gbaylis | Python
-user is asked to input the cost of 2 different types of bills
-input is a float, to allow for the cents
-the variables are put inside a () when dividing the number
-rounding the float to 2 decimals, for cents
+calculate the users total bills for the month
+aske the user what their monthly bills are, and how many roommates they are splitting the bills with
+
+then display the user's share of the bills are
 '''
-#rent is $800 every month plus your share of the utilities
-rent = 800
+
 #ask the user for the montly water and gas / electric bill
-water = float(input(" what is the water bill?..  "))
-elec = float(input(" what is the gas & electric bill?..  "))
-# the users pays 1/4 of the water bill and 1/2 of the gas/electric bill
-bill1 = (water) / 4
-bill2 = (elec) / 2
-# add the users share of the water, gas & electric bill
-bill3 = bill1 + bill2
-# the users total costs, is the rent, plus their share of the utilities
+water_bill = float(input(" How much is the water bill for this month?..  "))
+elec_bill = float(input(" How much is the gas & electric bill, this month?..  "))
+rent_bill = float(input(" How much is the rent this month?..  "))
 
-total_rent = (round(rent + bill3,2))
-print("*" * 25)
-# print the users share of the water bill
-# used , instead of the + sign, made it easier to put int and string on the same print line
-print(" Your part of the water bill is... $", (round(bill1,2)))
-# round the water bill to the nearest 2 decimal places
-# print(round(bill1,2))
-print("*" * 25)
+internet_bill = float(input(" How much is the internet bill this month?..  "))
 
-# print the users share of the gas / electric bill
-print(" Your part of the gas & electric bill is... $", (round(bill2,2)))
-# round the gas & electric bill to the nearest 2 decimal places
-# print(round(bill2,2))
-print("*" * 25)
+cable_bill = float(input(" How much is the bill for cable and other streaming services such as Netflix, Hulu, etc?..  "))
 
-#convert the float to a string
-# so that it can be concatenated with another string
-total_value = str(total_rent)
+room_mates = float(input(" How many roommates do you share the bills with?..  "))
 
-# print what the user owes in both utilities
-print(" Your share total for your share of the utilities is...  $", (round(bill3,2)))
-# print(round(bill3,2))
-print("*" * 25)
+water = (water_bill / room_mates)
+elec = (elec_bill / room_mates)
+rent = (rent_bill / room_mates)
+internet = (internet_bill / room_mates)
+cable = (cable_bill / room_mates)
+bill = (water + elec + rent + internet + cable)
 
-print(" Your total rent is: $" + total_value)
+# print out the users share and total of bills
+print(" Your share of the bills")
+print("*" * 20)
 
+print(" Your share of the water bill is:... $", water)
 
+print(" Your share of the gas & electric bill is:... $", elec)
+
+print(" Your share of the rent bill is:... $", rent)
+
+print(" Your share of the water bill is:... $", rent)
