@@ -6,17 +6,21 @@ aske the user what their monthly bills are, and how many roommates they are spli
 then display the user's share of the bills are
 '''
 
-#ask the user for the montly water and gas / electric bill
-water_bill = float(input(" How much is the water bill for this month?..  "))
-elec_bill = float(input(" How much is the gas & electric bill, this month?..  "))
+#ask the user for the monthly cost of bills
 rent_bill = float(input(" How much is the rent this month?..  "))
 
 internet_bill = float(input(" How much is the internet bill this month?..  "))
 
+water_bill = float(input(" How much is the water bill for this month?..  "))
+
+elec_bill = float(input(" How much is the gas & electric bill, this month?..  "))
+
 cable_bill = float(input(" How much is the bill for cable and other streaming services such as Netflix, Hulu, etc?..  "))
 
+# ask the user how many roommates they share the bills with
 room_mates = float(input(" How many roommates do you share the bills with?..  "))
 
+# create a variable, based on the bill divided by # of roommates 
 water = (water_bill / room_mates)
 elec = (elec_bill / room_mates)
 rent = (rent_bill / room_mates)
@@ -25,13 +29,19 @@ cable = (cable_bill / room_mates)
 bill = (water + elec + rent + internet + cable)
 
 # print out the users share and total of bills
-print(" Your share of the bills")
-print("*" * 20)
+print("*" * 40)
+print(" Your share of the bills.....")
 
-print(" Your share of the water bill is:... $", water)
+print(" rent:........................... $", rent)
 
-print(" Your share of the gas & electric bill is:... $", elec)
+print(" internet:....................... $", rent)
 
-print(" Your share of the rent bill is:... $", rent)
+print(" water bill:......................$", water)
 
-print(" Your share of the water bill is:... $", rent)
+print(" gas & electric bill:.............$", elec)
+
+print(" cable & streaming services:..... $", rent)
+
+print("*" * 40)
+
+print("Your bill for all services........$",bill)
