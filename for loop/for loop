@@ -1,9 +1,14 @@
 '''
-gbaylis | Python
+Python
 for loop
+
+Prints numbers 0 through 29, then the sentence The 30 days in a month
 '''
 
 for x in range(30):
   print(x)
 else:
      print(" The 30 days in a month")
+     
+     
+
