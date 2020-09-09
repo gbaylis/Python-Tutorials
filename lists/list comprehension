@@ -1,6 +1,5 @@
 '''
-gbaylis
-April 6th, 2020
+Python
 list comprehension
 '''
 Movies = ['Matrix', 'Terminator', 'Star Wars', 'Lord of the Rings']
