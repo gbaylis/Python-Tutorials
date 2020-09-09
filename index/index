@@ -1,7 +1,7 @@
 '''
-gbaylis
-
 Python example of Index
+the 1st character in a word is in index position 0
+the 2nd character in a word, is in index position 1....
 '''
 
 # find the index of each number
