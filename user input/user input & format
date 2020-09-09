@@ -1,5 +1,5 @@
 '''
-gbaylis | Python
+Python
 user input and .format
 '''
 # ask the user for their name, save it in a variable called name 
