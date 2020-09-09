@@ -1,7 +1,5 @@
 '''
-gbaylis
-April 7th 2020
-split a string
+split a string | Python
 '''
 trees = 'pine, oak, redwood, cypress'
 print(trees)
